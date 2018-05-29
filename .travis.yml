@@ -1,10 +1,13 @@
 language: ruby
 cache: bundler
 gemfile: Gemfile
+   addons:
+    apt:
+      update: true
 before_install:
 - gem install bundler
 script:
-  - bundle exec jekyll algolia 
+  # - bundle exec jekyll algolia 
   # --source ./docs --destination docs/_site --config ./_config.yml
   #
   - bundle exec jekyll 
