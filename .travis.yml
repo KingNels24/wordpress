@@ -7,12 +7,9 @@ gemfile: Gemfile
 before_install:
 - gem install bundler
 script:
-  # - bundle exec jekyll algolia 
-  # --source ./docs --destination docs/_site --config ./_config.yml
-  #
-  - bundle exec jekyll 
+  - bundle exec jekyll algolia --source _docs 
+  # --destination docs/_site --config docs/_config.yml
   - bundle exec htmlproofer ./_site --disable-external
-  #
 branches:
   only:
     - master
