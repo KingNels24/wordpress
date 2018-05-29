@@ -1,21 +1,21 @@
-# Default look of the website
-remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dirt" # Avbl. "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# Website look
+remote_theme: "minimal-mistakes"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # CK's Technology Site Settings
 locale                   : "en-US"
-title                    : "CK's Technology News"
+title                    : "CKs Technology News"
 title_separator          : "-"
 name                     : &name "CHEF-KOCH"
 description              : &description "Tech News from a strange guy!"
 url                      : https://chef-koch.github.io
 baseurl                  : "/CHEF-KOCH.github.io"
 repository               : "CHEF-KOCH/CHEF-KOCH.github.io"
-teaser                   : "/assets/images/500x300.png"                 # path of fallback teaser image, e.g. 
-breadcrumbs              : true                                 # false # true, false (default)
+teaser                   : "/assets/images/500x300.png"
+breadcrumbs              : true
 words_per_minute         : 240
 comments:
-  provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : "staticman_v2"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -23,7 +23,7 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : 9  # 5 (default)
+    num_posts            : 9
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
@@ -46,27 +46,16 @@ reCaptcha:
   secret                 : "AzIUrEd+AIv8ldGHpKynLSAhGY36K6WmtfWbzrKrovUCfoOx0e4h6h/9btCage99F1RFt1RxJijR7VGlQ9uxWbd5YFTwZf7e9AgBIhEheOTU/feapBrRXgVQsjRlST4aSl7J4m888vhVHLwcas2Sar2a/byLVlb0oQU4mSaWmbY="
 atom_feed:
   path                   : # blank (default) uses feed.xml
-
-search                   : true # true, false (default)
-search_full_content      : true # true, false (default)
+search                   : true
+search_full_content      : true
 search_provider          : algolia
 algolia:
   application_id         : AJGNAJWQ5G
   index_name             : minimal_mistakes
   search_only_api_key    : b1b067005c6982e51974423b052c82e9 
   powered_by             : false # Disable Badge 'powered by'
-  files_to_exclude:
-    - _posts/2017-11-28-post-exclude-search.md
-    - .git
-    - .gitattributestat
-    - .travis
-    - .banner
-    - .Gemfile
-    - .Gemfile.lock
-    - .Rakfile
-    - _recipes/chocolate-chip-cookies.md
 google:
-  search_engine_id       : # ID 
+  search_engine_id       : # ID
   instant_search         : # false (default), true
 # SEO Related
 google_site_verification : BVbt5hFA2NRrDsY4AAnjQJXkJjpKnaT8tzEgecvaG08
@@ -76,8 +65,8 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : "CKsTechNews"
-facebook                 : "https://facebook.com/CHEF-KOCH"
+  username               : CKsTechNews
+facebook:
   username               : CHEF-KOCH
   app_id                 :
   publisher              :
@@ -89,7 +78,6 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
     - "https://twitter.com/CKsTechNews"
-    - "https://facebook.com/CHEF-KOCH"
     #- "https://instagram.com/yourProfile"
     - "https://www.linkedin.com/in/CK's Technology News"
     #- "https://plus.google.com/your_profile"
@@ -115,7 +103,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : *facebook
+  facebook         :
   foursquare       :
   github           : "https://github.com/CHEF-KOCH"
   gitlab           : "https://gitlab.com/CHEF-KOCH"
@@ -123,13 +111,13 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : *insagram # fixme
+  linkedin         :
   pinterest        :
   soundcloud       : "https://soundcloud.com/chef-koch-2S"
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : *twitter
+  twitter          :
   vine             :
   weibo            :
   xing             :
@@ -219,7 +207,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: America/Indiana/Vevay # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: # "America/Indiana/Vevay" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -273,23 +261,23 @@ defaults:
       sidebar:
         nav: "docs"
   # _recipes
-  - scope:
-      path: ""
-      type: recipes
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+  #- scope:
+   #   path: ""
+    #  type: recipes
+    #values:
+    #  layout: single
+   #   author_profile: true
+   #   share: true
+  #    comments: true
   # _pets
-  - scope:
-      path: ""
-      type: pets
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
+  #- scope:
+   #   path: ""
+    #  type: pets
+    #values:
+     # layout: single
+      #author_profile: true
+      #share: true
+      #comment: true
   # _portfolio
   - scope:
       path: ""
