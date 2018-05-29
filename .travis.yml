@@ -2,7 +2,10 @@ language: ruby
 cache: bundler
 gemfile: Gemfile
 script:
-  - bundle exec jekyll #--config _config.yml
+  - bundle exec jekyll build 
+  bundle exec htmlproofer ./_site --disable-external
+  #--config _config.yml
+  #-- algolia --source docs --destination docs/_site --config docs/_config.yml
 branches:
   only:
     - master
