@@ -55,7 +55,7 @@ algolia:
   application_id         : AJGNAJWQ5G
   index_name             : minimal_mistakes
   search_only_api_key    : b1b067005c6982e51974423b052c82e9 
-  powered_by             : true # true (default), false
+  powered_by             : false # Disable Badge 'powered by'
   files_to_exclude:
     - _posts/2017-11-28-post-exclude-search.md
     - .git
