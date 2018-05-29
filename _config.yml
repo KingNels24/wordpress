@@ -1,5 +1,5 @@
-theme             : "minimal-mistakes-jekyll"
-# remote_theme             : "mmistakes/minimal-mistakes"
+theme                    : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dirt" # Avbl. "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # CK's Technology Site Settings
@@ -11,8 +11,8 @@ description              : &description "Tech News from a strange guy!"
 url                      : https://chef-koch.github.io
 baseurl                  : "/CHEF-KOCH.github.io"
 repository               : "CHEF-KOCH/CHEF-KOCH.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-breadcrumbs              : true # false # true, false (default)
+teaser                   : "/assets/images/500x300.png"                 # path of fallback teaser image, e.g. 
+breadcrumbs              : true                                 # false # true, false (default)
 words_per_minute         : 240
 comments:
   provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
@@ -42,35 +42,43 @@ staticman:
       options:
         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 reCaptcha:
-  siteKey                : "6LdRBykTAAAAAFB46MnIu6ixuxwu9W1ihFF8G60Q"
-  secret                 : "PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4="
+  siteKey                : "6LcpHlwUAAAAADo0WESbO7aP8fJST1TQhKGxu2Nd"
+  secret                 : "AzIUrEd+AIv8ldGHpKynLSAhGY36K6WmtfWbzrKrovUCfoOx0e4h6h/9btCage99F1RFt1RxJijR7VGlQ9uxWbd5YFTwZf7e9AgBIhEheOTU/feapBrRXgVQsjRlST4aSl7J4m888vhVHLwcas2Sar2a/byLVlb0oQU4mSaWmbY="
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
-search_provider          : algolia # lunr (default), algolia
+search_provider          : algolia
 algolia:
-  application_id         : QB6HVGBSBA # YOUR_APPLICATION_ID
-  index_name             : minimal_mistakes # YOUR_INDEX_NAME
-  search_only_api_key    : 9d5014e5bbc77372547bce778dfa5663 # YOUR_SEARCH_ONLY_API_KEY
+  application_id         : AJGNAJWQ5G
+  index_name             : minimal_mistakes
+  search_only_api_key    : b1b067005c6982e51974423b052c82e9 
   powered_by             : true # true (default), false
   files_to_exclude:
     - _posts/2017-11-28-post-exclude-search.md
+    - .git
+    - .gitattributestat
+    - .travis
+    - .banner
+    - .Gemfile
+    - .Gemfile.lock
+    - .Rakfile
+    - _recipes/chocolate-chip-cookies.md
 google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  search_engine_id       : # ID 
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
-bing_site_verification   :
-yandex_site_verification :
+google_site_verification : BVbt5hFA2NRrDsY4AAnjQJXkJjpKnaT8tzEgecvaG08
+bing_site_verification   : C47F20BACEFD9EF7C2A9254543957BD0
+yandex_site_verification : 18edda72d035b8ee
 naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
-facebook:
-  username               :
+  username               : "CKsTechNews"
+facebook                 : "https://facebook.com/CHEF-KOCH"
+  username               : CHEF-KOCH
   app_id                 :
   publisher              :
 og_image                 : "/assets/images/site-logo.png" # Open Graph/Twitter default site image
@@ -80,39 +88,44 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://twitter.com/CKsTechNews"
+    - "https://facebook.com/CHEF-KOCH"
+    #- "https://instagram.com/yourProfile"
+    - "https://www.linkedin.com/in/CK's Technology News"
+    #- "https://plus.google.com/your_profile"
 
 # Analytics
 analytics:
-  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal" 
   google:
-    tracking_id          : "UA-2011187-3" # Replace this with your ID, or delete
+    tracking_id          : "UA-2011187-3"  # fixme
     anonymize_ip         : true
 
 
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. 
   bio              : "I liked emotes...."
   location         : "Swiss"
   email            : "CHEF-KOCH@protonmail.com"
   uri              : "https://chef-koch.github.io"
   home             : "https://chefkochblog.wordpress.com"
-  bitbucket        :
+  bitbucket        : "https://bitbucket.org/CHEF-KOCH"
   codepen          :
   dribbble         :
   flickr           :
   facebook         : *facebook
   foursquare       :
   github           : "https://github.com/CHEF-KOCH"
-  gitlab           :
+  gitlab           : "https://gitlab.com/CHEF-KOCH"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : *insagram # fixme
   pinterest        :
-  soundcloud       :
+  soundcloud       : "https://soundcloud.com/chef-koch-2S"
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
@@ -206,7 +219,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Indiana/Vevay # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
