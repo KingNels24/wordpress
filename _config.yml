@@ -93,11 +93,11 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Just another boring, tattooed, time traveling, designer."
+  bio              : "I liked emotes...."
   location         : "Swiss"
-  email            :
+  email            : "CHEF-KOCH@protonmail.com"
   uri              : "https://chef-koch.github.io"
-  home             : "https://chef-koch.github.io"
+  home             : "https://chefkochblog.wordpress.com"
   bitbucket        :
   codepen          :
   dribbble         :
