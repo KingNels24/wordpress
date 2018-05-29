@@ -1,18 +1,18 @@
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # Avbl. "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-# Site Settings
+# CK's Technology Site Settings
 locale                   : "en-US"
 title                    : "CK's Technology News"
 title_separator          : "-"
 name                     : &name "CHEF-KOCH"
 description              : &description "Tech News from a strange guy!"
-url                      : https://chef-koch.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/CHEF-KOCH.github.io" # the subpath of your site, e.g. "/blog"
-repository               : "CHEF-KOCH/CHEF-KOCH.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+url                      : https://chef-koch.github.io
+baseurl                  : "/CHEF-KOCH.github.io"
+repository               : "CHEF-KOCH/CHEF-KOCH.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
-words_per_minute         : 230
+breadcrumbs              : true # false # true, false (default)
+words_per_minute         : 240
 comments:
   provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
@@ -22,7 +22,7 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : # 5 (default)
+    num_posts            : 9  # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
@@ -95,15 +95,15 @@ author:
   bio              : "Just another boring, tattooed, time traveling, designer."
   location         : "Swiss"
   email            :
-  uri              :
-  home             : # null (default), "absolute or relative url to link to author home"
+  uri              : "https://chef-koch.github.io/"
+  home             : "https://chef-koch.github.io/"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         : *facebook
   foursquare       :
-  github           :
+  github           : "https://github.com/CHEF-KOCH"
   gitlab           :
   google_plus      :
   keybase          :
@@ -119,7 +119,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  youtube          : 
 
 
 # Reading Files
