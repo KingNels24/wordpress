@@ -4,7 +4,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # CK's Technology Site Settings
 locale                   : "en-US"
-title                    : "CKs Technology News"
+title                    : "CK's Technology News"
 title_separator          : "-"
 name                     : &name "CHEF-KOCH"
 description              : &description "Tech News from a strange guy!"
@@ -84,9 +84,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-universal" 
+  provider               : "custom"
   google:
-    tracking_id          : "UA-2011187-3"  # fixme
+    tracking_id          : UA-2011187-3  # fixme
     anonymize_ip         : true
 
 
@@ -94,7 +94,7 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. 
-  bio              : "I liked emotes...."
+  bio              : "I like emotes...."
   location         : "Swiss"
   email            : "CHEF-KOCH@protonmail.com"
   uri              : "https://chef-koch.github.io"
@@ -105,15 +105,15 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/CHEF-KOCH"
-  gitlab           : "https://gitlab.com/CHEF-KOCH"
+  github           : "CHEF-KOCH"
+  gitlab           : "CHEF-KOCH"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
   linkedin         :
   pinterest        :
-  soundcloud       : "https://soundcloud.com/chef-koch-2S"
+  soundcloud       : "chef-koch-2"
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
@@ -208,7 +208,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 6 # amount of posts to show
 paginate_path: /page:num/
 timezone: # "America/Indiana/Vevay" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
