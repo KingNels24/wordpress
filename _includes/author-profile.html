@@ -257,6 +257,14 @@
         </li>
       {% endif %}
 
+      {% if author.reddit %}
+        <li>
+          <a href="https://www.reddit.com/user/username">
+            <i class="fab fa-fw fa-reddit" aria-hidden="true"></i> Reddit
+          </a>
+        </li>
+      {% endif %}
+
       {% include author-profile-custom-links.html %}
     </ul>
   </div>

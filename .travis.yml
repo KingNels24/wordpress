@@ -4,9 +4,9 @@ gemfile: Gemfile
 before_install:
 - gem install bundler
 script:
-  - bundle exec jekyll algolia push --source _posts -config _config.yml
-  #- bundle exec jekyll algolia --source _posts --destination _posts/_site --config _config.yml
+  - bundle exec jekyll algolia push --source _docs --destination _docs/_site --config _config.yml
   - bundle exec htmlproofer ./_site --disable-external
+  #- bundle exec jekyll algolia
 branches:
   only:
     - master
