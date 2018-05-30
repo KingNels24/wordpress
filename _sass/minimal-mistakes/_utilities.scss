@@ -278,6 +278,12 @@ body:hover .visually-hidden button {
     color: $twitter-color;
   }
 
+  .fa-microblog,
+  .fa-microblog-square {
+	  color: $microblog-color;
+	  fill: $microblog-color;
+  }
+
   .fa-vimeo,
   .fa-vimeo-square,
   .fa-vimeo-v {
@@ -292,8 +298,10 @@ body:hover .visually-hidden button {
     color: $youtube-color;
   }
 
-  .fa-reddit {
-    color: #ff4500;
+  .fa-reddit,
+  .fa-reddit-alien,
+  .fa-reddit-square{
+    color: $reddit-color;
   }
 
   .fa-xing,
