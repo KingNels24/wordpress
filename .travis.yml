@@ -1,14 +1,11 @@
 language: ruby
 cache: bundler
 gemfile: Gemfile
-   addons:
-    apt:
-      update: true
 before_install:
 - gem install bundler
 script:
-  - bundle exec jekyll algolia --source _docs 
-  # --destination docs/_site --config docs/_config.yml
+  - bundle exec jekyll algolia --source _posts --destination _posts./site --config _config.yml
+  #- bundle exec jekyll algolia --source _docs --destination _docs./_site --config docs/_config.yml
   - bundle exec htmlproofer ./_site --disable-external
 branches:
   only:
