@@ -102,7 +102,7 @@ author:
   location         : "Lausanne, Swiss"
   email            :
   uri              :
-  home             : "https://chefkochblog.wordpress.com" # null (default), "absolute or relative url to link to author home"
+  home             : "https://CHEF-KOCH.github.io" # null (default), "absolute or relative url to link to author home"
   bitbucket        : CHEF-KOCH
   codepen          :
   dribbble         :
