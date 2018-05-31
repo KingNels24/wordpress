@@ -14,7 +14,7 @@ function disableSubmitButton() {
 	document.getElementById('saveForm').disabled = true;
 }
 
-// for radio and checkboxes, they have to be cleared manually, so they are added to the
+// For radio and checkboxes, they have to be cleared manually, so they are added to the
 // global array highlight_array so we dont have to loop through the dom every time.
 function initializeFocus(){
 	var fields = getElementsByClassName(document, "*", "field");
