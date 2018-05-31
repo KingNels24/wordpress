@@ -10,6 +10,8 @@ Website:
 - [ ] change font(s) (?)
 - [ ] review Google settings (_already did but there some privacy questions left_)
 - [ ] add more mobile devices + detections + fallbacks
+- [x] load fonts locally as fallback
+- [ ] add page status in 'About' to check if page is online/offline (low-prio)
 - [ ] ....
 
 
@@ -17,7 +19,7 @@ Mailchimp:
 
 - [ ] fix header image 
 - [ ] review (again) privacy policy
-- [ ] adjust reCAPTCHAv2 image(s)
+- [ ] adjust reCAPTCHA v2 image(s)
 - [ ] 
 
 
