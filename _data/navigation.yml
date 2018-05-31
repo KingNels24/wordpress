@@ -1,7 +1,5 @@
-# main links
+# Navigation bar
 main:
-  #- title: "Quick-Start Guide"
-  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
    - title: "About Me"
      url: /about/
    - title: "Archives"
@@ -11,7 +9,7 @@ main:
    - title: "Support"
      url: /support/
   # - title: "Join Newsletter"
-  #   url: https://upscri.be/611534
+  #   url: https://upscri.be/ #fixme
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
