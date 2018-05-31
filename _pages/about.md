@@ -24,7 +24,7 @@ On this site, you’ll find posts I’ve written on some of my favourite things:
   <strong>Decentralized and Distributed systems | Open Source Software | Digital Privacy | Artificial Intelligence | Cryptocurrency | Data Science | Product Management | InfoSec | Leadership | Supply Chains | Ethical Design | Economics | Economic Empowerment | Plant-Based Lifestyle | Yoga | Jogging | Venture Capital | Capital Markets | Startups</strong>
 </p>
 
-You can also find me on [Twitter](https://twitter.com/CKsTechNews), [Medium](https://medium.com/@chef-koch), [Linkedin](https://linkedin.com/in/CHEF-KOCH) and [Github](https://github.com/CHEF-KOCH). You may also join my (infrequent) email [Newsletter](https://upscri.be/611534).
+You can also find me on [Twitter](https://twitter.com/CKsTechNews), [Medium](https://medium.com/@chef-koch), [Linkedin](https://linkedin.com/in/CHEF-KOCH) and [Github](https://github.com/CHEF-KOCH). You may also join my (infrequent) email [Newsletter](https://upscri.be/4ea406/).
 
 The best way to contact me is [via Twitter](https://twitter.com/CKsTechNews). Otherwise, drop a note [here](/contact).
 
