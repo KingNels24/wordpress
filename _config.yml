@@ -62,7 +62,7 @@ algolia:
   powered_by             : false # true (default), false
 
 # SEO Related
-google_site_verification : BVbt5hFA2NRrDsY4AAnjQJXkJjpKnaT8tzEgecvaG08
+google_site_verification : 0ICGl54CJHd8qkF5dcwFZ4BJh3Rd32HT2juJfVKvl-U
 bing_site_verification   : C47F20BACEFD9EF7C2A9254543957BD0
 yandex_site_verification : 18edda72d035b8ee
 naver_site_verification  : AAAAOtwlDIS1qZ6/S1xeS6V6XqIZqNzEcqccwYKCokspmRlm1tMOuMNfRkVJAH5TiRwP1D+ZaCUk+QYzAL0gObqMwWM=
@@ -127,7 +127,7 @@ author:
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
   medium           : # fixme
-  newsletter       : "611534" #fixme
+  newsletter       : "4ea406"
 
 
 # Reading Files
