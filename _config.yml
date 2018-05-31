@@ -1,21 +1,27 @@
-# Website look
-remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
 
-# CK's Technology Site Settings
-locale                   : "en-US"
+minimal_mistakes_skin    : "contrast" #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale                   : "en-GB"
 title                    : "CK's Technology News"
 title_separator          : "-"
-name                     : &name "CHEF-KOCH"
-description              : &description "Tech News from a strange guy!"
-url                      : https://chef-koch.github.io
-baseurl                  : "/CHEF-KOCH.github.io"
-repository               : "CHEF-KOCH/CHEF-KOCH.github.io"
-teaser                   : "/assets/images/500x300.png"
-breadcrumbs              : true
-words_per_minute         : 240
+name                     : "CHEF-KOCH"
+description              : "Tech News from a strange guy!"
+url                      : https://CHEF-KOCH.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : CHEF-KOCH/CHEF-KOCH.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : /assets/images/interface.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+remote_theme             : "mmistakes/minimal-mistakes"
+# breadcrumbs            : false # true, false (default)
+words_per_minute         : 220
 comments:
-  provider               : "staticman_v2"
+  provider               : staticman_v2 # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -23,7 +29,7 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : 9
+    num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
@@ -46,17 +52,15 @@ reCaptcha:
   secret                 : "AzIUrEd+AIv8ldGHpKynLSAhGY36K6WmtfWbzrKrovUCfoOx0e4h6h/9btCage99F1RFt1RxJijR7VGlQ9uxWbd5YFTwZf7e9AgBIhEheOTU/feapBrRXgVQsjRlST4aSl7J4m888vhVHLwcas2Sar2a/byLVlb0oQU4mSaWmbY="
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : true
-search_full_content      : true
-search_provider          : algolia
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : algolia # lunr (default), algolia
 algolia:
-  application_id         : AJGNAJWQ5G
-  index_name             : minimal_mistakes
-  search_only_api_key    : b1b067005c6982e51974423b052c82e9 
-  powered_by             : false # Disable Badge 'powered by'
-google:
-  search_engine_id       : # ID
-  instant_search         : # false (default), true
+  application_id         : AJGNAJWQ5G # YOUR_APPLICATION_ID
+  index_name             : blog	# YOUR_INDEX_NAME
+  search_only_api_key    : b1b067005c6982e51974423b052c82e9 # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : false # true (default), false
+
 # SEO Related
 google_site_verification : BVbt5hFA2NRrDsY4AAnjQJXkJjpKnaT8tzEgecvaG08
 bing_site_verification   : C47F20BACEFD9EF7C2A9254543957BD0
@@ -70,67 +74,67 @@ facebook:
   username               : CHEF-KOCH
   app_id                 :
   publisher              :
-og_image                 : "/assets/images/site-logo.png" # Open Graph/Twitter default site image
+og_image                 : /assets/images/interface.jpg # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-    - "https://twitter.com/CKsTechNews"
-    #- "https://instagram.com/yourProfile"
-    - "https://www.linkedin.com/in/CK's Technology News"
-    #- "https://plus.google.com/your_profile"
+  links:
+    - "https://www.twitter.com/CKsTechNews"
+    - "https://www.linkedin.com/in/" #fixme
+    - "https://medium.com/" #fixme
+    - "https://github.com/CHEF-KOCH"
 
 # Analytics
 analytics:
-  provider               : "custom"
+  provider               : custom # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : UA-2011187-3  # fixme
-    anonymize_ip         : true
+    tracking_id          : UA-2011187-3 #fixme
+    anonymize_ip         : true # false (default)
 
 
 # Site Author
 author:
-  name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. 
-  bio              : "I like emotes...."
-  location         : "Swiss"
-  email            : "CHEF-KOCH@protonmail.com"
-  uri              : "https://chef-koch.github.io"
-  home             : "https://chefkochblog.wordpress.com"
-  bitbucket        : "https://bitbucket.org/CHEF-KOCH"
+  name             : "CHEF-KOCH"
+  avatar           : /assets/images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Tech noob..."
+  location         : "Lausanne, Swiss"
+  email            :
+  uri              :
+  home             : "https://chefkochblog.wordpress.com" # null (default), "absolute or relative url to link to author home"
+  bitbucket        : CHEF-KOCH
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "CHEF-KOCH"
-  gitlab           : "CHEF-KOCH"
+  github           : CHEF-KOCH
+  gitlab           : CHEF-KOCH
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : CHEF-KOCH # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
-  soundcloud       : "chef-koch-2"
+  soundcloud       : CHEF-KOCH-2
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          : celue
   vine             :
   weibo            :
   xing             :
-  youtube          : 
-  reddit           :
-  microblog        :
-    
+  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  medium           : # fixme
+  newsletter       : "611534" #fixme
 
 
 # Reading Files
 include:
   - .htaccess
   - _pages
+#  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -155,8 +159,8 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs
-  - /test
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -184,22 +188,6 @@ kramdown:
   enable_coderay: false
 
 
-# Collections
-collections:
-  docs:
-    output: true
-    permalink: /:collection/:path/
-  recipes:
-    output: true
-    permalink: /:collection/:path/
-  pets:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -208,14 +196,13 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 6 # amount of posts to show
+paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # "America/Indiana/Vevay" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
 plugins:
-# - jekyll-admin
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -229,66 +216,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
-
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  # _docs
-  - scope:
-      path: ""
-      type: docs
-    values:
-      layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        nav: "docs"
-  # _recipes
-  #- scope:
-   #   path: ""
-    #  type: recipes
-    #values:
-    #  layout: single
-   #   author_profile: true
-   #   share: true
-  #    comments: true
-  # _pets
-  #- scope:
-   #   path: ""
-    #  type: pets
-    #values:
-     # layout: single
-      #author_profile: true
-      #share: true
-      #comment: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: false
-      share: true
 
 
 # Archives
@@ -326,3 +253,25 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: _posts
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: _path
+      type: pages
+    values:
+      layout: single
+      author_profile: true

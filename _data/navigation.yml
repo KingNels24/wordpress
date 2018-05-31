@@ -1,17 +1,18 @@
+# main links
 main:
-  - title: "About"
-    url: /about/
-  - title: "Pages"
-    url: /pages/
-  - title: "Categories"
-    url: /categories/
-  - title: "Contact"
-    url: /contact/
-  - title: "Support"
-    url: /support/
-  - title: "Collections"
-    url: /collection-archive/
-  - title: "Changelog"
-    url: /year-archive/
-  - title: "Station-Drivers"
-    url: https://station-drivers.com
+  #- title: "Quick-Start Guide"
+  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+   - title: "About Me"
+     url: /about/
+   - title: "ARCHIVES"
+     url: /posts/
+   - title: "CONTACT"
+     url: /contact/
+  # - title: "Join Newsletter"
+  #   url: https://upscri.be/611534
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/

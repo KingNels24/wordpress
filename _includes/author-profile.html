@@ -8,14 +8,14 @@
       {% if author.avatar contains "://" %}
         {% assign author_src = author.avatar %}
       {% else %}
-        {% assign author_src = author.avatar | relative_url %}
+        {% assign author_src = author.avatar | absolute_url %}
       {% endif %}
 
       {% if author.home %}
         {% if author.home contains "://" %}
           {% assign author_link = author.home %}
         {% else %}
-          {% assign author_link = author.home | relative_url %}
+          {% assign author_link = author.home | absolute_url %}
         {% endif %}
         <a href="{{ author_link }}">
           <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
@@ -75,7 +75,7 @@
 
       {% if author.twitter %}
         <li>
-          <a href="https://twitter.com/{{ author.twitter }}" itemprop="sameAs">
+          <a href="https://twitter.com/{{ author.twitter }}" itemprop="sameAs" rel="nofollow noopener" target="_blank">
             <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
           </a>
         </li>
@@ -83,7 +83,7 @@
 
       {% if author.facebook %}
         <li>
-          <a href="https://www.facebook.com/{{ author.facebook }}" itemprop="sameAs">
+          <a href="https://www.facebook.com/{{ author.facebook }}" itemprop="sameAs" itemprop="sameAs" rel="nofollow noopener" target="_blank">
             <i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook
           </a>
         </li>
@@ -99,7 +99,7 @@
 
       {% if author.linkedin %}
         <li>
-          <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs">
+          <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs" itemprop="sameAs" rel="nofollow noopener" target="_blank">
             <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn
           </a>
         </li>
@@ -113,9 +113,17 @@
         </li>
       {% endif %}
 
+      {% if author.medium %}
+        <li>
+          <a href="https://www.medium.com/@{{ author.medium }}" itemprop="sameAs" itemprop="sameAs" rel="nofollow noopener" target="_blank">
+            <i class="fab fa-fw fa-medium" aria-hidden="true"></i> Medium
+          </a>
+        </li>
+      {% endif %}
+
       {% if author.instagram %}
         <li>
-          <a href="https://instagram.com/{{ author.instagram }}" itemprop="sameAs">
+          <a href="https://instagram.com/{{ author.instagram }}" itemprop="sameAs" itemprop="sameAs" rel="nofollow noopener" target="_blank">
             <i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram
           </a>
         </li>
@@ -139,7 +147,7 @@
 
       {% if author.github %}
         <li>
-          <a href="https://github.com/{{ author.github }}" itemprop="sameAs">
+          <a href="https://github.com/{{ author.github }}" itemprop="sameAs" itemprop="sameAs" rel="nofollow noopener" target="_blank">
             <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
           </a>
         </li>
@@ -155,7 +163,7 @@
 
       {% if author.stackoverflow %}
         <li>
-          <a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}" itemprop="sameAs">
+          <a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}" itemprop="sameAs" itemprop="sameAs" rel="nofollow noopener" target="_blank">
             <i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stack Overflow
           </a>
         </li>
@@ -171,7 +179,7 @@
 
       {% if author.dribbble %}
         <li>
-          <a href="https://dribbble.com/{{ author.dribbble }}" itemprop="sameAs">
+          <a href="https://dribbble.com/{{ author.dribbble }}" itemprop="sameAs" itemprop="sameAs" rel="nofollow noopener" target="_blank">
             <i class="fab fa-fw fa-dribbble" aria-hidden="true"></i> Dribbble
           </a>
         </li>
@@ -204,13 +212,13 @@
       {% if author.youtube %}
         {% if author.youtube contains "://" %}
           <li>
-            <a href="{{ author.youtube }}" itemprop="sameAs">
+            <a href="{{ author.youtube }}" itemprop="sameAs" itemprop="sameAs" rel="nofollow noopener" target="_blank">
               <i class="fab fa-fw fa-youtube" aria-hidden="true"></i> YouTube
             </a>
           </li>
         {% else author.youtube %}
           <li>
-            <a href="https://www.youtube.com/user/{{ author.youtube }}" itemprop="sameAs">
+            <a href="https://www.youtube.com/user/{{ author.youtube }}" itemprop="sameAs" rel="nofollow noopener" target="_blank">
               <i class="fab fa-fw fa-youtube" aria-hidden="true"></i> YouTube
             </a>
           </li>
@@ -257,20 +265,10 @@
         </li>
       {% endif %}
 
-      {% if author.reddit %}
+      {% if author.newsletter %}
         <li>
-          <a href="https://www.reddit.com/user/username">
-            <i class="fab fa-fw fa-reddit" aria-hidden="true"></i> Reddit
-          </a>
-        </li>
-      {% endif %}
-
-      {% if author.microblog %}
-      <li>
-        <a href="https://micro.blog/{{ author.microblog }}" itemprop="sameAs">
-          <svg class="svg-inline--fa fa-microblog-square fa-w-14 fa-fw" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 482.79 486.16">
-            <path class="cls-1" d="M495.79,372.06c32-37.64,51.11-85,51.11-136.5C546.9,113,438.82,13.72,305.5,13.72S64.1,113,64.1,235.56,172.18,457.4,305.5,457.4a259.65,259.65,0,0,0,86.2-14.58,7.78,7.78,0,0,1,8.81,2.77c20.17,27.23,51.67,46.38,86.7,54.17a4.79,4.79,0,0,0,4.74-7.65,94.37,94.37,0,0,1,4-120.11ZM420,209.48l-62.17,47.19,22.56,74.72a7.06,7.06,0,0,1-10.79,7.84L305.5,294.68l-64.09,44.55a7.06,7.06,0,0,1-10.79-7.84l22.56-74.72L191,209.48a7.06,7.06,0,0,1,4.12-12.68l78-1.63,25.67-73.71a7.06,7.06,0,0,1,13.33,0l25.67,73.71,78,1.63A7.06,7.06,0,0,1,420,209.48Z" transform="translate(-64.1 -13.72)" /></svg>
-            <i class="fa-microblog-square" aria-hidden="true"></i> Micro.blog
+          <a href="https://upscri.be/{{ author.newsletter }}" itemprop="sameAs" rel="nofollow noopener" target="_blank">
+            <i class="far fa-newspaper" aria-hidden="true"></i> Newsletter
           </a>
         </li>
       {% endif %}

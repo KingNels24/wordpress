@@ -224,10 +224,6 @@ body:hover .visually-hidden button {
     color: $github-color;
   }
 
-  .fa-gitlab {
-    color: $gitlab-color;
-  }
-
   .fa-google-plus,
   .fa-google-plus-square,
   .fa-google-plus-g {
@@ -278,12 +274,6 @@ body:hover .visually-hidden button {
     color: $twitter-color;
   }
 
-  .fa-microblog,
-  .fa-microblog-square {
-	  color: $microblog-color;
-	  fill: $microblog-color;
-  }
-
   .fa-vimeo,
   .fa-vimeo-square,
   .fa-vimeo-v {
@@ -298,15 +288,13 @@ body:hover .visually-hidden button {
     color: $youtube-color;
   }
 
-  .fa-reddit,
-  .fa-reddit-alien,
-  .fa-reddit-square{
-    color: $reddit-color;
-  }
-
   .fa-xing,
   .fa-xing-square {
     color: $xing-color;
+  }
+
+  .fa-medium {
+    color: $medium-color;
   }
 }
 
@@ -318,7 +306,7 @@ body:hover .visually-hidden button {
   position: relative;
   width: $navicon-width;
   height: $navicon-height;
-  background: #fff;
+  background: $primary-color;
   margin: auto;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -330,7 +318,7 @@ body:hover .visually-hidden button {
     left: 0;
     width: $navicon-width;
     height: $navicon-height;
-    background: #fff;
+    background: $primary-color;
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
@@ -534,3 +522,11 @@ a.reversefootnote {
     position: static;
   }
 }
+
+.byline-item {
+    white-space: nowrap;
+
+    &:not(:first-child) {
+       margin-left: 1.5rem;
+     }
+   }
