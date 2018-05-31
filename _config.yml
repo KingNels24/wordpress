@@ -82,8 +82,8 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links:
     - "https://www.twitter.com/CKsTechNews"
-    - "https://www.linkedin.com/in/" #fixme
-    - "https://medium.com/" #fixme
+    - "https://www.linkedin.com/in/ck-s-technology-news-ab7a25164/" #fixme
+  #  - "https://medium.com/" #fixme
     - "https://github.com/CHEF-KOCH"
 
 # Analytics
@@ -100,34 +100,39 @@ author:
   avatar           : /assets/images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Tech noob..."
   location         : "Lausanne, Swiss"
-  email            :
-  uri              :
+  email            : "CHEF-KOCH@protonmail.com"
+  uri              : # fixme
   home             : "https://CHEF-KOCH.github.io" # null (default), "absolute or relative url to link to author home"
   bitbucket        : CHEF-KOCH
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
+  codepen          : # fixme
+  dribbble         : # fixme
+  flickr           : # fixme
+  facebook         : CKs-Technology-News-147142349441817
+  foursquare       : # fixme
   github           : CHEF-KOCH
   gitlab           : CHEF-KOCH
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         : CHEF-KOCH # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
-  pinterest        :
+  google_plus      : # fixme
+  keybase          : chefkoch
+  instagram        : # fixme
+  lastfm           : # fixme
+  linkedin         : ck-s-technology-news-ab7a25164 # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  pinterest        : chefkoch0480
   soundcloud       : CHEF-KOCH-2
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
-  tumblr           :
+  tumblr           : # fixme
   twitter          : CKsTechNews
-  vine             :
-  weibo            :
-  xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  vine             : # fixme
+  weibo            : # fixme
+  xing             : # fixme
+  youtube          : "https://www.youtube.com/channel/UCTbmGi3pLfu5JFeA5ONdoQA"
   medium           : # fixme
   newsletter       : "4ea406"
+  #vimeo           : falstaff # fixme
+  #spotify         : nvinside99 # fixme
+  #Riot.im         : "#cknews:matrix.org" # fixme
+  #reddit          : CKsTechnologyNews # fixme
+  #path            : 5ab32c099bcbdca1e2becbea # fixme
 
 
 # Reading Files
