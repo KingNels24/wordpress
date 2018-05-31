@@ -1,3 +1,9 @@
+## CHEF-KOCH.github.io
+ [![Build Status](https://travis-ci.org/CHEF-KOCH/CHEF-KOCH.github.io.svg?branch=master)](https://travis-ci.org/CHEF-KOCH/CHEF-KOCH.github.io)
+
+Some information about my site: 
+
+
 ## Jekyll Powered site
 
 My main stack is:
