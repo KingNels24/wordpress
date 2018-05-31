@@ -4,10 +4,12 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
    - title: "About Me"
      url: /about/
-   - title: "ARCHIVES"
+   - title: "Archives"
      url: /posts/
-   - title: "CONTACT"
+   - title: "Contact"
      url: /contact/
+   - title: "Support"
+     url: /support/
   # - title: "Join Newsletter"
   #   url: https://upscri.be/611534
   # - title: "Sample Posts"
