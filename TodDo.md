@@ -8,6 +8,7 @@ Website:
 - [ ] add missing Support page
 - [ ] fix Contact page
 - [ ] fix About page
+- [ ] add [Lazyload](https://github.com/aFarkas/lazysizes) support
 - [ ] automatically hide 'Pinned Posts' (_maybe_)
 - [ ] expand pictures when clicking on them (_maybe_)
 - [ ] fix Hungarian language (add more languages)
