@@ -12,6 +12,7 @@ Website:
 - [ ] add more mobile devices + detections + fallbacks
 - [x] load fonts locally as fallback
 - [ ] add page status in 'About' to check if page is online/offline (low-prio)
+    - [ ] Component selector navigation (low-prio)
 - [ ] ....
 
 
