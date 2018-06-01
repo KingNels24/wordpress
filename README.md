@@ -86,3 +86,53 @@ If having the following error
 
 Try:
 `bundle clean --force`
+
+
+## Blog structure (Overview)
+
+├── gulp                      # => gulp tasks (soon?)
+├── src                       # => source Jekyll files and assets
+|  ├── _includes
+|  ├── _layouts
+|  ├── _plugins
+|  ├── ...
+|  ├── _posts
+|  ├── assets
+|  |  ├── icons
+|  |  ├── images
+|  |  |   └── feature
+|  |  ├── javascript
+|  |  |   ├── plugins
+|  |  |   ├── vendor
+|  |  |   └── main.js
+|  |  ├── stylesheets
+|  |  |   ├── vendor
+|  |  |   ├── ...
+|  |  |   └── style.scss
+├── .editorconfig
+├── .gitignore
+├── .htaccess
+├── _config.dev.yml
+├── _config.yml
+├── Gemfile
+├── robots.txt
+├── #
+├── ...
+
+## Pages 
+
+
+CHEF-KOCH.github.io
+└── _pages/
+    ├── 404.md               # 404 page
+    ├── about.md             # About page
+    └── contact.md           # Contact page
+
+
+## Plugins
+
+[jekyll-paginate](https://github.com/jekyll/jekyll-paginate)	    Pagination Generator for Jekyll.
+[jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap)	    Jekyll plugin to silently generate a sitemaps.org compliant sitemap for your Jekyll site.
+[jekyll-gist](https://github.com/jekyll/jekyll-gist)	        Liquid tag for displaying GitHub Gists in Jekyll sites.
+[jekyll-feed](https://github.com/jekyll/jekyll-feed)       A Jekyll plugin to generate an Atom (RSS-like) feed of your Jekyll posts.
+[jemoji](https://github.com/jekyll/jemoji)	            GitHub-flavored emoji plugin for Jekyll.

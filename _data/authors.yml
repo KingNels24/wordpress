@@ -1,13 +1,13 @@
-# Authors + Guest Authors#
-# fixme: email protection
+# Guest Authors
+# Content authored from various individuals
 
-CHEF-KOCH:
-  name        : "CHEF-KOCH"
-  uri         : "http://CHEF-KOCH.github.io"
-  email       : "CHEF-KOCH@protonmail.com"
-  bio         : "What do you want, jewels? I am a very extravagant man."
-  avatar      : "/assets/images/bio-photo-2.jpg"
-  twitter     : "CKsTechNews"
+#CHEF-KOCH:
+#  name        : "CHEF-KOCH"
+#  uri         : "http://CHEF-KOCH.github.io"
+#  email       : "CHEF-KOCH@protonmail.com"
+#  bio         : "What do you want, jewels? I am a very extravagant man."
+#  avatar      : "/assets/images/bio-photo-2.jpg"
+#  twitter     : "CKsTechNews"
   #google_plus : ""
 
 #Cornelius Fiddlebone:
