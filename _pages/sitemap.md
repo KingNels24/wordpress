@@ -1,35 +1,46 @@
 ---
-layout: archive
-title: "Sitemap"
+layout: page
 permalink: /sitemap/
-author_profile: false
+title: "Sitemap"
+excerpt: "An index of all the pages found on mademistakes.com"
 ---
 
-A list of all the posts and pages found on the site. For you robots out there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
+A hierarchical breakdown of all the sections and pages found on the site. For you robots out there, here is an [XML version](/sitemap.xml) available for your crawling pleasure.
 
 <h2>Pages</h2>
-{% for post in site.pages %}
-  {% include archive-single.html %}
-{% endfor %}
+<ul>
+  <li><a href="/about/">About</a></li>
+  <li><a href="/contact/">Contact</a></li>
+  <li><a href="/faqs/">Frequently Asked Questions</a></li>
+  <li><a href="/support/">Support</a></li>
+  <li><a href="/tag/">Tag Archive</a></li>
+  <li><a href="/terms/">Terms and Policies</a></li>
+</ul>
 
-<h2>Posts</h2>
-{% for post in site.posts %}
-  {% include archive-single.html %}
-{% endfor %}
+<h2><a href="/articles/">Blog Articles</a></h2>
+<ul>
+  {% for post in site.categories.articles %}
+    {% include post-list.html %}
+  {% endfor %}
+</ul>
 
-{% capture written_label %}'None'{% endcapture %}
+<h2><a href="/til/">Today I Learned</a></h2>
+<ul>
+  {% for post in site.categories.til %}
+    {% include post-list.html %}
+  {% endfor %}
+</ul>
 
-{% for collection in site.collections %}
-{% unless collection.output == false or collection.label == "posts" %}
-  {% capture label %}{{ collection.label }}{% endcapture %}
-  {% if label != written_label %}
-  <h2>{{ label }}</h2>
-  {% capture written_label %}{{ label }}{% endcapture %}
-  {% endif %}
-{% endunless %}
-{% for post in collection.docs %}
-  {% unless collection.output == false or collection.label == "posts" %}
-  {% include archive-single.html %}
-  {% endunless %}
-{% endfor %}
-{% endfor %}
+<h2><a href="/mastering-paper/">Mastering Paper by FiftyThree</a></h2>
+<ul>
+  {% for post in site.categories.mastering-paper %}
+    {% include post-list.html %}
+  {% endfor %}
+</ul>
+
+<h2><a href="/work/">Portfolio Work</a></h2>
+<ul>
+  {% for post in site.work %}
+    {% include post-list.html %}
+  {% endfor %}
+</ul>

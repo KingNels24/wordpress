@@ -1,5 +1,9 @@
 Website:
 
+- [x] add .htaccess
+- [x] add robots.txt
+- [x] Travis CI integration
+- [x] rep. design
 - [ ] randomize Header image on the FP
 - [ ] add missing Support page
 - [ ] fix Contact page
@@ -13,7 +17,8 @@ Website:
 - [x] load fonts locally as fallback
 - [ ] add page status in 'About' to check if page is online/offline (low-prio)
     - [ ] Component selector navigation (low-prio)
-- [ ] ....
+    - [ ] add video frames (low-prio)
+- [ ] ...
 
 
 Mailchimp:
@@ -21,7 +26,7 @@ Mailchimp:
 - [ ] fix header image 
 - [ ] review (again) privacy policy
 - [ ] adjust reCAPTCHA v2 image(s)
-- [ ] 
+- [ ] ...
 
 
 upscri.be Newsletter:
@@ -29,4 +34,4 @@ upscri.be Newsletter:
 - [ ] change 'Sign up' button color and size (_maybe_)
 - [ ] change font? anti-aliasing correction for some Browsers
 - [ ] possible hide some 'Newsletter' popups on certain pages (_maybe_)
-- [ ] 
+- [ ] ...
