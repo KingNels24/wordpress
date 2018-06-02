@@ -2,13 +2,13 @@
 layout: single
 permalink: /contact/
 title: "Contact"
-excerpt: "Ways to contact Pat Eskinasy."
+excerpt: "Ways to contact CHEF-KOCH."
 share: false
 classes: wide
 author_profile: true  
 ---
 
-The best way to contact me is [via Twitter](https://twitter.com/celue).
+The best way to contact me is [via Discord](https://discord.me/CHEF-KOCH).
 
 For anything not short and sweet, please contact me via the form below and I'll get back to you by email.
 
@@ -16,7 +16,7 @@ Please note: I get a lot of email and may be slow to respond. Sometimes, unfortu
 
 [My PGP public key](/PGPpublickey.txt).
 
-You may also join my (infrequent) email [Newsletter](https://upscri.be/611534).
+You may also join my (infrequent) email [Newsletter](https://upscri.be/4ea406).
 
 ## Contact Me
 

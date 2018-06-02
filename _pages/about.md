@@ -10,31 +10,51 @@ header:
   overlay_filter: 0.25
 show_overlay_title: true
 #show_overlay_excerpt: true
-excerpt: "About Pat Eskinasy"
+excerpt: "About CHEF-KOCH"
 share: false
 classes: wide
 author_profile: true  
 ---
 
-Hi, I'm Pat Eskinasy.
+Hi, I'm CHEF-KOCH.
 
-On this site, you’ll find posts I’ve written on some of my favourite things:
+I’m a private independent freelancer from Russia/Germany who is interested in all things of technology. I’m getting excited about technology and I like to tweak, test and review all software and hardware which I come across on my daily Internet journey. 
+
+I worked several years for Microsoft (networking) and NVIDIA (CUDA) and have a lot of Internet & coding related experience earned over the years. 
+
+I try to help random people whenever I can and I like to share my knowledge with others.
+
+
+## Founder
+* CHEF-KOCH
+
+## Editors
+* None
+
+## Guest Authors
+
+* Guest authors are heartily welcome.
+
+
+On my site, you’ll find posts I’ve written on some of my favourite things:
 
 <p class="notice">
-  <strong>Decentralized and Distributed systems | Open Source Software | Digital Privacy | Artificial Intelligence | Cryptocurrency | Data Science | Product Management | InfoSec | Leadership | Supply Chains | Ethical Design | Economics | Economic Empowerment | Plant-Based Lifestyle | Yoga | Jogging | Venture Capital | Capital Markets | Startups</strong>
+  <strong>Software and Security related News, Reviews & Tips | Android application News and Reviews | Hardware News | Tutorials and Tricks | Cryptocurrency | Here and there something from the Linux corner, yep I do care! | Movie analysis or things I think are worth to talk about – deal with it! | InfoSec | Leadership | Startups</strong>
 </p>
 
-You can also find me on [Twitter](https://twitter.com/celue), [Medium](https://medium.com/@celue), [Linkedin](https://linkedin.com/in/pateskinasy) and [Github](https://github.com/pateskinasy). You may also join my (infrequent) email [Newsletter](https://upscri.be/611534).
+I try to post _5 news per day_, depending on how busy I am (maybe more/less).
 
-The best way to contact me is [via Twitter](https://twitter.com/celue). Otherwise, drop a note [here](/contact).
 
-I'm now busy with own project (in stealth).
+You can also find me on: 
+* [Twitter](https://twitter.com/CKsTechNews)
+* [Medium](https://medium.com/@CKsTechNews)
+* [Linkedin](https://linkedin.com/in/ck-s-technology-news-ab7a25164)
+* [Github](https://github.com/CHEF-KOCH). 
 
-Then: A fifteen years' career in B2B deep-tech across 4 continents.
+You may also join my (infrequent) email Newsletter](https://upscri.be/4ea406).
 
-I dig making really complex stuff simple and am a massive product geek. As an Engineer and Economist, I am fascinated by decentralization (yes, I'll probably read - or skim - your white paper if I come across it). Specially interested in initiatives that help boost economic empowerment.
 
-Otherwise, you'll find me with ∞ tabs open in my browser, eating 🌱 food, doing yoga or jogging.
+The best way to contact me is [via Discord](https://discord.me/CHEF-KOCH). Otherwise, drop a note [here](/contact).
 
 <!--
 <lastBuildDate>

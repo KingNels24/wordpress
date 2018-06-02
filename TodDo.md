@@ -5,8 +5,8 @@
 - [x] Travis CI integration
 - [x] Fix design
 - [ ] add missing Support page
-- [ ] fix Contact page
-- [ ] fix About page
+- [x] fix Contact page
+- [x] fix About page
 - [ ] automatically hide 'Pinned Posts' (_maybe_)
 - [ ] expand pictures when clicking on them (_maybe_)
 - [x] fix Hungarian language (add more languages)
@@ -28,9 +28,12 @@
 - [ ] Improve page performance with [Gulp](http://savaslabs.com/2016/10/19/optimizing-jekyll-with-gulp.html)
 - [ ] add [picture tag](https://github.com/robwierzbowski/jekyll-picture-tag)
 - [ ] add [WuFoo](https://www.wufoo.com/) + (or) [Mailgun](https://www.mailgun.com) for eMail support questions
-- [x] add Table of Content (TOC)
+- [x] add Table of Content (TOC) for specific pages
 - [x] add Responsive Video Embed
 - [x] add navigation links via nav_list  
+- [ ] detect dead links automatically
+- [ ] implement Google's reCAPTCHA v3 system (currently beta)
+- [ ] unlock comments automatically for supporters 
 
 
 ## Plugin related 
