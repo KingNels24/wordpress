@@ -14,6 +14,7 @@
 - [ ] review Google settings (_already did but there some privacy questions left_)
 - [ ] add more mobile devices + detections + fallbacks
 - [x] load fonts locally as fallback
+- [ ] [Responsive Images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) to reduce the [size](https://alistapart.com/article/responsive-images-in-practice)
 - [ ] add page status in 'About' to check if page is online/offline (low-prio)
     - [ ] Component selector navigation (low-prio)
     - [ ] add video frames (low-prio)
@@ -34,6 +35,7 @@
 - [ ] detect dead links automatically
 - [ ] implement Google's reCAPTCHA v3 system (currently beta)
 - [ ] unlock comments automatically for supporters 
+- [ ] implement [bigfoot](http://www.bigfootjs.com)
 
 
 ## Plugin related 
