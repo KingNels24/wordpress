@@ -1,6 +1,10 @@
 ## Website
 
+- [ ] unlock CHEF-KOCH.org as main page (_maybe in the future_)
 - [x] add .htaccess
+- [x] add backup folder
+- [ ] Change default fonts `_sass/_variables.scss` ? 
+- [ ] Change default font size in `.article-wrap `
 - [x] add robots.txt
 - [x] Travis CI integration
 - [x] Fix design
@@ -11,7 +15,7 @@
 - [ ] expand pictures when clicking on them (_maybe_)
 - [x] fix Hungarian language (add more languages)
 - [ ] change font(s) (?)
-- [ ] review Google settings (_already did but there some privacy questions left_)
+- [ ] review Google settings (_already did it but there some privacy questions left_)
 - [ ] add more mobile devices + detections + fallbacks
 - [x] load fonts locally as fallback
 - [ ] [Responsive Images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) to reduce the [size](https://alistapart.com/article/responsive-images-in-practice)
