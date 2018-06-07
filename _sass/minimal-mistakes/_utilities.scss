@@ -224,6 +224,10 @@ body:hover .visually-hidden button {
     color: $github-color;
   }
 
+  .fa-gitlab {
+    color: $gitlab-color;
+  }
+
   .fa-google-plus,
   .fa-google-plus-square,
   .fa-google-plus-g {
@@ -292,10 +296,6 @@ body:hover .visually-hidden button {
   .fa-xing-square {
     color: $xing-color;
   }
-
-  .fa-medium {
-    color: $medium-color;
-  }
 }
 
 /*
@@ -306,7 +306,7 @@ body:hover .visually-hidden button {
   position: relative;
   width: $navicon-width;
   height: $navicon-height;
-  background: $primary-color;
+  background: #fff;
   margin: auto;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -318,7 +318,7 @@ body:hover .visually-hidden button {
     left: 0;
     width: $navicon-width;
     height: $navicon-height;
-    background: $primary-color;
+    background: #fff;
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
@@ -522,11 +522,3 @@ a.reversefootnote {
     position: static;
   }
 }
-
-.byline-item {
-    white-space: nowrap;
-
-    &:not(:first-child) {
-       margin-left: 1.5rem;
-     }
-   }

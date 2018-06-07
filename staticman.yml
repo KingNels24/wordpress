@@ -10,7 +10,7 @@ comments:
   #
   # Names of the fields the form is allowed to submit. If a field that is
   # not here is part of the request, an error will be thrown.
-  allowedFields: ["name", "email", "message"] #"url"]
+  allowedFields: ["name", "email", "url", "message"]
 
   # (*) REQUIRED WHEN USING NOTIFICATIONS
   #
@@ -49,7 +49,7 @@ comments:
   # Whether entries need to be approved before they are published to the main
   # branch. If set to `true`, a pull request will be created for your approval.
   # Otherwise, entries will be published to the main branch automatically.
-  moderation: false
+  moderation: true
 
   # Akismet spam detection.
   # akismet:
@@ -83,7 +83,7 @@ comments:
   # (*) REQUIRED
   #
   # Destination path (directory) for the data files. Accepts placeholders.
-  path: "_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
+  path: "docs/_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
 
   # Names of required files. If any of these isn't in the request or is empty,
   # an error will be thrown.
@@ -98,7 +98,7 @@ comments:
   # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
   reCaptcha:
     enabled: true
-    siteKey: "6LcpHlwUAAAAADo0WESbO7aP8fJST1TQhKGxu2Nd"
+    siteKey: "6LdRBykTAAAAAFB46MnIu6ixuxwu9W1ihFF8G60Q"
     # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
     # For more information, https://staticman.net/docs/encryption
-    secret: "AzIUrEd+AIv8ldGHpKynLSAhGY36K6WmtfWbzrKrovUCfoOx0e4h6h/9btCage99F1RFt1RxJijR7VGlQ9uxWbd5YFTwZf7e9AgBIhEheOTU/feapBrRXgVQsjRlST4aSl7J4m888vhVHLwcas2Sar2a/byLVlb0oQU4mSaWmbY="
+    secret: "PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4="
