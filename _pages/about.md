@@ -51,7 +51,7 @@ You can also find me on:
 * [Linkedin](https://linkedin.com/in/ck-s-technology-news-ab7a25164)
 * [Github](https://github.com/CHEF-KOCH). 
 
-You may also join my (infrequent) email Newsletter](https://upscri.be/4ea406).
+You may also join my (infrequent) email [Newsletter](https://upscri.be/4ea406).
 
 
 The best way to contact me is [via Discord](https://discord.me/CHEF-KOCH). Otherwise, drop a note [here](/contact).
