@@ -10,6 +10,7 @@
 - [x] Fix design
 - [ ] add missing Support page
 - [x] fix Contact page
+- [x] add favicon
 - [x] fix About page
 - [ ] automatically hide 'Pinned Posts' (_maybe_)
 - [ ] expand pictures when clicking on them (_maybe_)
@@ -39,7 +40,8 @@
 - [ ] detect dead links automatically
 - [ ] implement Google's reCAPTCHA v3 system (currently beta)
 - [ ] unlock comments automatically for supporters 
-- [ ] implement [bigfoot](http://www.bigfootjs.com)
+- [ ] implement [Bigfoot](http://www.bigfootjs.com)
+- [ ] implement [Lity](https://sorgalla.com/lity/)
 
 
 ## Plugin related 
