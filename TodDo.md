@@ -5,7 +5,7 @@
 - [x] add backup folder
 - [ ] Change default fonts `_sass/_variables.scss` ? 
 - [ ] Change default font size in `.article-wrap `
-- [x] add robots.txt
+- [x] add robots.txt and humans.txt
 - [x] Travis CI integration
 - [x] Fix design
 - [ ] add missing Support page
@@ -30,7 +30,7 @@
 - [ ] [jQuery Smooth Scroll](https://github.com/kswedberg/jquery-smooth-scroll)
 - [ ] add [Lazyload](https://github.com/aFarkas/lazysizes) support
 - [ ] add Support for threaded/nested comments
-- [ ] randomize Header image on the FP
+- [ ] randomize Header image on the FP (_maybe_)
 - [ ] Improve page performance with [Gulp](http://savaslabs.com/2016/10/19/optimizing-jekyll-with-gulp.html)
 - [ ] add [picture tag](https://github.com/robwierzbowski/jekyll-picture-tag)
 - [ ] add [WuFoo](https://www.wufoo.com/) + (or) [Mailgun](https://www.mailgun.com) for eMail support questions
@@ -42,6 +42,7 @@
 - [ ] unlock comments automatically for supporters 
 - [ ] implement [Bigfoot](http://www.bigfootjs.com)
 - [ ] implement [Lity](https://sorgalla.com/lity/)
+- [ ] load fontawesome fonts locally to avoid any external connections (GDPR?)
 
 
 ## Plugin related 
