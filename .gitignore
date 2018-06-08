@@ -1,3 +1,4 @@
+.vscode
 *.gem
 *.sublime-project
 *.sublime-workspace
@@ -12,3 +13,5 @@ example/_site
 Gemfile.lock
 node_modules
 npm-debug.log*
+_includes/toc.html
+s3_website.yml

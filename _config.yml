@@ -32,26 +32,26 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
+  allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "master"
-  commitMessage          : # "New comment."
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "/_data/comments/{options.slug}"
+  requiredFields         : ['name', 'email', 'message']
   transforms:
-    email                : # "md5"
+    email                : "md5"
   generatedFields:
     date:
-      type               : # "date"
+      type               : "date"
       options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format           : "iso8601" # (default), "timestamp-seconds", "timestamp-milliseconds"
 reCaptcha:
   siteKey                : "6LcpHlwUAAAAADo0WESbO7aP8fJST1TQhKGxu2Nd"
   secret                 : "AzIUrEd+AIv8ldGHpKynLSAhGY36K6WmtfWbzrKrovUCfoOx0e4h6h/9btCage99F1RFt1RxJijR7VGlQ9uxWbd5YFTwZf7e9AgBIhEheOTU/feapBrRXgVQsjRlST4aSl7J4m888vhVHLwcas2Sar2a/byLVlb0oQU4mSaWmbY="
 atom_feed:
-  path                   : # blank (default) uses feed.xml
+  path                   : /atom.xml # blank (default) uses feed.xml
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
 search_provider          : algolia # lunr (default), algolia
@@ -205,7 +205,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 8 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
